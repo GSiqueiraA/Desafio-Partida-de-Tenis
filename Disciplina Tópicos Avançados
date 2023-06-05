@@ -1,4 +1,4 @@
-const TennisGame = require('./TennisGame');
+const { TennisGame } = require('./TennisGame');
 
 test('Ambos os jogadores começam com zero pontos', () => {
   const jogo = new TennisGame();
