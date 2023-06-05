@@ -18,9 +18,9 @@ class TennisGame {
       return 'Jogador 2';
     } else if (this.pontuacao.jogador1 >= 40 && this.pontuacao.jogador2 >= 40 &&this.pontuacao.jogador1 === this.pontuacao.jogador2) {
       return 'Empate';
-    } else if (this.pontuacao.jogador1 > 40 && this.pontuacao.jogador2 === this.pontuacao.jogador1 + 10) {
+    } else if (this.pontuacao.jogador1 > 40 && this.pontuacao.jogador2 === this.pontuacao.jogador1 + 30) {
       return 'Jogador 2';
-    } else if (this.pontuacao.jogador2 > 40 && this.pontuacao.jogador1 === this.pontuacao.jogador2 + 10) {
+    } else if (this.pontuacao.jogador2 > 40 && this.pontuacao.jogador1 === this.pontuacao.jogador2 + 30) {
       return 'Jogador 1';
     } else {
       return null;
