@@ -1,5 +1,5 @@
 import TennisGame from "../TennisGame.js";
-const TennisGame = require('./TennisGame');
+//const TennisGame = require('./TennisGame');
 
 describe('Partida iniciada'), () => {
 test('Ambos os jogadores começam com zero pontos', () => {
