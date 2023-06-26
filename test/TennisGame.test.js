@@ -1,4 +1,4 @@
-import TennisGame from "./TennisGame.js";
+import TennisGame from "../src/TennisGame.js";
 //const TennisGame = require('./TennisGame');
 
 describe('Partida iniciada'), () => {
