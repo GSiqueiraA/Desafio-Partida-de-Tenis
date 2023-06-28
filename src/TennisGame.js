@@ -1,5 +1,5 @@
 //https://dojopuzzles.com/problems/partida-de-tenis/ resolvendo o desafio
-export default class TennisGame
+
 class TennisGame {
   constructor() {
     this.pontuacao = { jogador1: 0, jogador2: 0 };
@@ -27,6 +27,8 @@ class TennisGame {
     }
   }
 }
+
+export default class TennisGame
 //npm init -y
 //npm i -D jest
 //npm test
