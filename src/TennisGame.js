@@ -27,8 +27,7 @@ class TennisGame {
     }
   }
 }
-
-export default class TennisGame
+module.exports = TennisGame; 
 //npm init -y
 //npm i -D jest
 //npm test
